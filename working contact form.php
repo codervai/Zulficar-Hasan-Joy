@@ -1,10 +1,10 @@
 <?php 
 if(isset($_POST['email']))
 {
-  $firstname = $_POST['name'];
-  $email = $_POST['email'];
-  $subject = $_POST['subject'];
-  $message = $_POST['message'];
+  $firstname = $_POST['name']; // type your form feild name
+  $email = $_POST['email']; // type your form feild name
+  $subject = $_POST['subject']; // type your form feild name
+  $message = $_POST['message']; // type your form feild name
   $date = time();
 
   $ipaddress = '';
